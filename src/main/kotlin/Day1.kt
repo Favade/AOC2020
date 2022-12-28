@@ -14,11 +14,7 @@ fun main() {
             sum *= 0
         }
     }
-
-    arr.sortDescending()
-    println(arr[0] + arr[1] + arr[2])
-
-
+    println(arr.sortedDescending().take(3).sum())
 
 
 //    for (i in arr.indices) {
