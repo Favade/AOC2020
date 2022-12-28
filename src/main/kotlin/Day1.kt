@@ -17,6 +17,8 @@ fun main() {
     println(arr.sortedDescending().take(3).sum())
 
 
+
+
 //    for (i in arr.indices) {
 //        max = maxOf(max, arr[i])
 //    }
